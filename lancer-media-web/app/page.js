@@ -1,5 +1,7 @@
 import Navigation from "@/app/ui/Common/nav";
 import ResponsiveCarousel from "@/app/ui/Common/ResponsiveCarousel";
+import ListTalent from "@/app/ui/Talent/list";
+import ListBlog from "@/app/ui/Blogs/ListBlog";
 import Image from "next/image";
 import { CheckIcon, ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
@@ -9,7 +11,6 @@ export default function Home() {
       <Navigation />
       <ResponsiveCarousel></ResponsiveCarousel>
       <main className="flex min-h-screen flex-col items-center justify-between py-20">
-        
         <section id="about-us" className="grid grid-cols-2 gap-20 mb-20 px-24">
           <div>
             <h2 className="text-4xl font-bold text-amber-500 pb-3">
@@ -109,8 +110,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="equipment">
-          <div className="py-24 px-40 grid grid-cols-2 gap-20">
+        <section id="equipment" className="mb-20">
+          <div className="pt-24 px-40 grid grid-cols-2 gap-20">
             <div>
               <Image
                 src="/equipment.jpg"
@@ -139,17 +140,44 @@ export default function Home() {
                 LANCER MEDIA.
               </p>
               <div className="pt-5 pl-5">
-              <a
-                title="Booking Now"
-                target="_self"
-                className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
-                href="/booking"
-              >
-                <span className="inline-block pr-5">Booking Now</span>{" "}
-                <ArrowRightCircleIcon className="h-6 w-6"></ArrowRightCircleIcon>
-              </a>
+                <a
+                  title="Booking Now"
+                  target="_self"
+                  className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
+                  href="/booking"
+                >
+                  <span className="inline-block pr-5">Booking Now</span>{" "}
+                  <ArrowRightCircleIcon className="h-6 w-6"></ArrowRightCircleIcon>
+                </a>
+              </div>
             </div>
-            </div>
+          </div>
+        </section>
+
+        <section
+          id="talents"
+          className="bg-gradient-to-r from-amber-300 to-amber-500 w-full"
+        >
+          <div className="pt-10 px-24 mb-20 ">
+            <h2 className={`text-4xl font-bold text-center`}>
+              Danh sách talent tiêu biểu
+            </h2>
+            <div className="w-60 h-1 mx-auto my-1 mb-20"></div>
+
+            <ListTalent></ListTalent>
+          </div>
+        </section>
+
+        <section
+          id="blogs"
+          className="w-full"
+        >
+          <div className="pt-20 px-24 mb-20 ">
+            <h2 className={`text-4xl font-bold text-center`}>
+              Discover New Blog Posts
+            </h2>
+            <div className="w-60 h-1 mx-auto my-1 mb-10 bg-amber-300"></div>            
+            <ListBlog></ListBlog>
           </div>
         </section>
       </main>
