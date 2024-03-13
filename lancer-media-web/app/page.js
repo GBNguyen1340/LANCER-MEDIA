@@ -131,10 +131,10 @@ export default function Home() {
               </h2>
               <p>
                 At LANCER MEDIA, we understand the importance of having the
-                right tools to bring your creative vision to life. That's why we
+                right tools to bring your creative vision to life. That&apos;s why we
                 offer a diverse selection of production equipment available for
-                rental, tailored to support our clients' unique needs. Whether
-                you're a professional filmmaker, content creator, or live
+                rental, tailored to support our clients&apos; unique needs. Whether
+                you&apos;re a professional filmmaker, content creator, or live
                 streamer, our top-of-the-line gear will help you capture
                 stunning visuals and deliver exceptional results. Discover the
                 possibilities and take your productions to the next level with

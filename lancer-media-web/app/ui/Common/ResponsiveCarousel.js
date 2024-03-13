@@ -3,6 +3,7 @@
 import { Carousel } from "react-responsive-carousel";
 import { heroData } from "@/app/data/staticData";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 export default function ResponsiveCarousel() {
   return (
     <div className="hero relative overflow-hidden mt-[72px]">

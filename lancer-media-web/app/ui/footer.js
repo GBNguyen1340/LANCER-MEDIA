@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -6,7 +9,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-wrap justify-between">
         <div className="w-full md:w-1/4 mb-8 md:mb-0">
           <Link href="/" className="flex items-center">
-            <img src="/lancerLogo.jpg" alt="Logo" className="w-40 h-auto pb-10" />
+            <Image
+              src="/lancerLogo.jpg"
+              alt="Logo"
+              className="w-40 h-auto pb-10"
+              height={400}
+              width={400}
+            />
             <span className="text-xxl font-bold text-gray-800">
               Lancer Media
             </span>

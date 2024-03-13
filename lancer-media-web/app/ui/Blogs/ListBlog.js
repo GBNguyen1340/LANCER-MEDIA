@@ -1,5 +1,5 @@
 import { posts } from "@/app/data/staticData";
-import BlogCard from '@/app/ui/Blogs/BlogCard';
+import BlogCard from "@/app/ui/Blogs/BlogCard";
 
 const ListBlog = () => {
   return (
