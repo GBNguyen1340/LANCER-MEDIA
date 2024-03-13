@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const BlogCard = ({ title, summary, publishDate, image }) => {
   return (
@@ -8,10 +11,12 @@ const BlogCard = ({ title, summary, publishDate, image }) => {
         href="/blog/[slug]"
         as={`/blog/${title.toLowerCase().replace(/\s/g, "-")}`}
       >
-        <img
+        <Image
           src={`${image}`}
           alt={`${title} Thumbnail`}
           className="w-full h-48 object-cover rounded-lg mb-4"
+          height={400}
+          width={400}
         />
       </Link>
       <h3 className="text-lg font-medium mb-2">{title}</h3>
