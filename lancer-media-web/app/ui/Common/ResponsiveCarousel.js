@@ -22,11 +22,11 @@ export default function ResponsiveCarousel() {
               <img
                 src={item.imageUrl}
                 alt="slides"
-                className="w-full h-full object-cover absolute inset-1 z-0 opacity-85"
+                className="w-full h-full object-cover absolute inset-1 z-0 opacity-85 blur-sm"
               />
             </div>
             <div className="flex flex-col justify-center items-center h-full z-10">
-              <h1 className="text-4xl font-bold text-white text-center">
+              <h1 className="text-5xl font-bold text-white text-center">
                 {item.title}
               </h1>
               <p className="text-xl text-white text-opacity-75 px-32 py-5">{item.text}</p>
