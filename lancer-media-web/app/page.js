@@ -2,6 +2,7 @@ import Navigation from "@/app/ui/Common/nav";
 import ResponsiveCarousel from "@/app/ui/Common/ResponsiveCarousel";
 import ListTalent from "@/app/ui/Talent/list";
 import ListBlog from "@/app/ui/Blogs/ListBlog";
+import Footer from "@/app/ui/footer";
 import Image from "next/image";
 import { CheckIcon, ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
@@ -165,22 +166,43 @@ export default function Home() {
             <div className="w-60 h-1 mx-auto my-1 mb-20"></div>
 
             <ListTalent></ListTalent>
+            <div className="text-center">
+              <a
+                title="View all talents"
+                target="_self"
+                className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
+                href="/talent"
+              >
+                <span className="inline-block pr-5">View all talents</span>{" "}
+                <ArrowRightCircleIcon className="h-6 w-6"></ArrowRightCircleIcon>
+              </a>
+            </div>
           </div>
         </section>
 
-        <section
-          id="blogs"
-          className="w-full"
-        >
+        <section id="blogs" className="w-full">
           <div className="pt-20 px-24 mb-20 ">
             <h2 className={`text-4xl font-bold text-center`}>
               Discover New Blog Posts
             </h2>
-            <div className="w-60 h-1 mx-auto my-1 mb-10 bg-amber-300"></div>            
+            <div className="w-60 h-1 mx-auto my-1 mb-10 bg-amber-300"></div>
             <ListBlog></ListBlog>
+            <div className="text-center">
+              <a
+                title="View all"
+                target="_self"
+                className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
+                href="/talent"
+              >
+                <span className="inline-block pr-5">View all</span>{" "}
+                <ArrowRightCircleIcon className="h-6 w-6"></ArrowRightCircleIcon>
+              </a>
+            </div>
           </div>
         </section>
       </main>
+
+      <Footer></Footer>
     </>
   );
 }
