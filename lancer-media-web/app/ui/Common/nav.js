@@ -53,7 +53,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link
-              href="/studio"
+              href="/booking"
               className="hover:bg-amber-400 hover:text-white px-3 py-2 rounded-md transition-all duration-300 ease-in-out font-medium"
             >
               Đặt Studio
@@ -61,7 +61,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link
-              href="/news"
+              href="/blogs"
               className="hover:bg-amber-400 hover:text-white px-3 py-2 rounded-md transition-all duration-300 ease-in-out font-medium"
             >
               Tin tức
