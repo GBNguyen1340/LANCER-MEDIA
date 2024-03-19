@@ -169,7 +169,7 @@ export default function Home() {
                 title="View all talents"
                 target="_self"
                 className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
-                href="/talent"
+                href="/talents"
               >
                 <span className="inline-block pr-5">View all talents</span>{" "}
                 <ArrowRightCircleIcon className="h-6 w-6"></ArrowRightCircleIcon>
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="text-center">
               <a
                 title="View all"
-                target="_self"
+                target="/blogs"
                 className="inline-flex items-center mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-amber-700 hover:bg-amber-800 focus:outline-none focus:border-amber-800 focus:shadow-outline-indigo active:bg-amber-800 transition ease-in-out duration-150"
                 href="/talent"
               >
