@@ -1,15 +1,13 @@
-import Navigation from "@/app/ui/Common/nav";
+
 import ResponsiveCarousel from "@/app/ui/Common/ResponsiveCarousel";
 import ListTalent from "@/app/ui/Talent/list";
 import ListBlog from "@/app/ui/Blogs/ListBlog";
-import Footer from "@/app/ui/footer";
 import Image from "next/image";
 import { CheckIcon, ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Home() {
   return (
     <>
-      <Navigation />
       <ResponsiveCarousel></ResponsiveCarousel>
       <main className="flex min-h-screen flex-col items-center justify-between py-20">
         <section id="about-us" className="grid grid-cols-2 gap-20 mb-20 px-24">
@@ -201,8 +199,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <Footer></Footer>
     </>
   );
 }

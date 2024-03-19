@@ -1,17 +1,27 @@
 import { Quicksand } from "next/font/google";
+import Navigation from "@/app/ui/Common/nav";
+import Footer from "@/app/ui/footer";
 import "./globals.css";
 
-const quicksand = Quicksand({ subsets: ["latin"], weight: ["300", "400", "500", "700"] });
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
 
 export const metadata = {
   title: "Lancer Media",
-  description: "Lancer Media là đối tác MCN chính thức với nền tảng Tiktok. Quản lý và nhận booking talent và idol đa nền tảng. Nhận booking studio và thiết bị livestream game, livestream bán hàng đa nền tảng.",
+  description:
+    "Lancer Media là đối tác MCN chính thức với nền tảng Tiktok. Quản lý và nhận booking talent và idol đa nền tảng. Nhận booking studio và thiết bị livestream game, livestream bán hàng đa nền tảng.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>{children}</body>
+      <body className={quicksand.className}>
+        <Navigation />
+        {children}
+        <Footer></Footer>
+      </body>
     </html>
   );
 }

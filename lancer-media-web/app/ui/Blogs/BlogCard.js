@@ -38,7 +38,7 @@ const BlogCard = ({ title, summary, publishDate, image }) => {
       <Link
         href="/blog/[slug]"
         as={`/blog/${title.toLowerCase().replace(/\s/g, "-")}`}
-        className="text-blue-500 hover:text-blue-700 mt-4 inline-block"
+        className="text-amber-500 hover:text-amber-700 mt-4 inline-block"
       >
         Read More
       </Link>
