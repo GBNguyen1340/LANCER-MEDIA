@@ -1,5 +1,5 @@
 export default function RoomDetail() {
   return(
-    <div>Room Detail</div>
+    <div className="mt-[72px]">Room Detail</div>
   )
 }
