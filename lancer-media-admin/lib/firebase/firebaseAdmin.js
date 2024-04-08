@@ -8,7 +8,7 @@ import { getAuth } from "firebase-admin/auth";
 export const firebaseAdminConfig = {
   type: process.env.NEXT_ADM_FIREBASE_TYPE,
   project_id: process.env.NEXT_ADM_FIREBASE_PROJECT_ID,
-  private_key_id: process.env.NEXT_ADM_FIREBASE_PRIVATE_KEY_ID,
+  private_key_id: process.env.NEXT_ADM_FIREBASE_PRIVATE_KEY_ID.replace(/\\n/gm, "\n"),
   private_key: process.env.NEXT_ADM_FIREBASE_PRIVATE_KEY,
   client_email: process.env.NEXT_ADM_FIREBASE_CLIENT_EMAIL,
   client_id: process.env.NEXT_ADM_FIREBASE_CLIENT_ID,
