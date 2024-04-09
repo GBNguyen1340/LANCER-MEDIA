@@ -1,4 +1,4 @@
-import NoData from "@/lib/noDataFound";
+import NoData from "@/ui/noDataFound";
 
 const BlogsTable = ({ blogs }) => {
   if (!blogs || blogs.length === 0) return <NoData></NoData>

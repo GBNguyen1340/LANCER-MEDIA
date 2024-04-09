@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-import { defaultNavItems } from "@/lib/defaultNavItems";
+import { defaultNavItems } from "@/ui/defaultData";
 import SignOutButton from "./signoutButton";
 const Sidebar = ({
   collapsed,

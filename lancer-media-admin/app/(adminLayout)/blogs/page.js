@@ -1,5 +1,5 @@
 import BlogsManagement from "@/ui/blogs/blogManagement";
-import LinkButton from "@/lib/linkButton";
+import LinkButton from "@/ui/linkButton";
 
 
 export default function Blogs() {
