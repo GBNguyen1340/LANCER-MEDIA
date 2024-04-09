@@ -8,6 +8,11 @@ const nextConfig = {
         hostname: 'via.placeholder.com',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io',
+        pathname: '**',
+      },
     ],
   },
 };

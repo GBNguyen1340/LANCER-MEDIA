@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormState } from "react-dom";
 import Image from "next/image";
 import { UserIcon, LockClosedIcon } from "@heroicons/react/24/outline";
 
@@ -42,30 +42,9 @@ export default function SignInComponent() {
           <div className="text-center text-red-700 font-bold text-sm">
             {errorMessage && <p>{errorMessage}</p>}
           </div>
-          <LoginButton />
+          <SubmitButton label="Login" />
         </form>
       </div>
     </div>
-  );
-}
-
-function LoginButton() {
-  const { pending } = useFormStatus();
-
-  const handleClick = (event) => {
-    if (pending) {
-      event.preventDefault();
-    }
-  };
-
-  return (
-    <button
-      aria-disabled={pending}
-      type="submit"
-      onClick={handleClick}
-      className="bg-gradient-to-b from-gray-700 to-gray-900 font-medium p-2 md:p-4 text-white uppercase w-full"
-    >
-      Login
-    </button>
   );
 }
