@@ -11,80 +11,24 @@
   }
 }
 
-.ProseMirror {
-  padding: 10px;
-  background: transparent;
-  border-radius: 0 0 5px 5px;
-  min-height: 100px;
+.rdw-editor-wrapper {
+  width: 100% !important;
 }
 
-.ProseMirror > * + * {
-  margin-top: 0.75em;
+.rdw-editor-wrapper button, .rdw-editor-wrapper ul > li {
+  font-size: 12px;
 }
 
-.ProseMirror ul {
-  padding: 0 1rem;
-  list-style: disc !important;
-}
-.ProseMirror ol {
-  padding: 0 2rem;
-  list-style: decimal !important;
-}
-
-.ProseMirror h1,
-.ProseMirror h2,
-.ProseMirror h3,
-.ProseMirror h4,
-.ProseMirror h5,
-.ProseMirror h6 {
-  line-height: 1.1;
+.rdw-embedded-modal-header-option,
+.rdw-embedded-modal-link-input,
+.rdw-image-modal-url-input,
+.rdw-image-modal-header-option,
+.rdw-dropdown-selectedtext,
+.rdw-link-modal-label,
+.rdw-link-modal-target-option {
+  font-size: 12px !important;
 }
 
-.ProseMirror code {
-  background-color: rgba(#616161, 0.1);
-  color: #616161;
+.rdw-link-modal {
+  height: 225px !important;
 }
-
-.ProseMirror pre {
-  background: #0d0d0d;
-  color: #fff;
-  font-family: 'JetBrainsMono', monospace;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-}
-.ProseMirror code {
-  color: inherit;
-  padding: 0;
-  background: none;
-  font-size: 0.8rem;
-}
-
-.ProseMirror blockquote {
-  padding-left: 1rem;
-  border-left: 3px solid #999999;
-}
-
-.ProseMirror hr {
-  border: none;
-  border-top: 3px solid #999999;
-  margin: 2rem 0;
-}
-
-/* For all <code> */
-.ProseMirror code {
-  font-family: MyFancyCustomFont, monospace;
-  font-size: inherit;
-}
-
-/* Code in text */
-.ProseMirror p > code,
-.ProseMirror li > code,
-.ProseMirror dd > code,
-.ProseMirror td > code {
-  background: #ffeff0;
-  word-wrap: break-word;
-  box-decoration-break: clone;
-  padding: .1rem .3rem .2rem;
-  border-radius: .2rem;
-}
-
