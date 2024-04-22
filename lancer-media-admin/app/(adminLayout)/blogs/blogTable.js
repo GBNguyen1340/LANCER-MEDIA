@@ -1,3 +1,4 @@
+import { DataTable } from "@/components/ui/dataTable";
 import NoData from "../../../components/layout/shared/noDataFound";
 
 const BlogsTable = ({ blogs }) => {
