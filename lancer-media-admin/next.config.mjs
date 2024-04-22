@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     remotePatterns: [
       {
@@ -8,6 +8,16 @@ const nextConfig = {
         hostname: 'via.placeholder.com',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 's.gravatar.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lancermedia.vn',
+        pathname: '**',
+      }
     ],
   },
 };

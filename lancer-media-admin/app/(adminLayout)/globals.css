@@ -10,3 +10,25 @@
     text-wrap: balance;
   }
 }
+
+.rdw-editor-wrapper {
+  width: 100% !important;
+}
+
+.rdw-editor-wrapper button, .rdw-editor-wrapper ul > li {
+  font-size: 12px;
+}
+
+.rdw-embedded-modal-header-option,
+.rdw-embedded-modal-link-input,
+.rdw-image-modal-url-input,
+.rdw-image-modal-header-option,
+.rdw-dropdown-selectedtext,
+.rdw-link-modal-label,
+.rdw-link-modal-target-option {
+  font-size: 12px !important;
+}
+
+.rdw-link-modal {
+  height: 225px !important;
+}
