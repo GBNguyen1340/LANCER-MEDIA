@@ -39,8 +39,8 @@ const Footer = () => {
               (123) 456-7890
             </a>
             <br />
-            <a href="mailto:info@salinanail.com" className="underline">
-              info@lancermedia.com
+            <a href="mailto:info@lancermedia.vn" className="underline">
+              info@lancermedia.vn
             </a>
           </p>
         </div>
