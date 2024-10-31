@@ -26,70 +26,70 @@ const talents = [
     name: "John Doe",
     followers: "40.000",
     views: "4000",
-    image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,
     name: "John Doe 2",
     followers: "50.000",
     views: "5000",
-    image: "https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1460904577954-8fadb262612c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 3,
     name: "Jane Smith",
     followers: "40.000",
     views: "47000",
-    image: "https://images.pexels.com/photos/2092474/pexels-photo-2092474.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1521146764736-56c929d59c83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 4,
     name: "John Doe",
     followers: "40.000",
     views: "7000",
-    image: "https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://plus.unsplash.com/premium_photo-1671656333460-793292581bc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 5,
     name: "Jane Smith",
     followers: "70.000",
     views: "1000",
-    image: "https://images.pexels.com/photos/2787341/pexels-photo-2787341.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1514626585111-9aa86183ac98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 6,
     name: "John Doe",
     followers: "40.000",
     views: "4000",
-    image: "https://images.pexels.com/photos/2744193/pexels-photo-2744193.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 7,
     name: "John Doe 2",
     followers: "50.000",
     views: "5000",
-    image: "https://images.pexels.com/photos/732425/pexels-photo-732425.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://plus.unsplash.com/premium_photo-1664203068007-52240d0ca48f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     id: 8,
     name: "Jane Smith",
     followers: "40.000",
     views: "47000",
-    image: "https://images.pexels.com/photos/2122276/pexels-photo-2122276.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     id: 9,
     name: "John Doe",
     followers: "40.000",
     views: "7000",
-    image: "https://images.pexels.com/photos/769772/pexels-photo-769772.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     id: 10,
     name: "Jane Smith",
     followers: "70.000",
     views: "1000",
-    image: "https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZXxlbnwwfHwwfHx8MA%3D%3D",
   },
 ];
 
@@ -120,7 +120,7 @@ const posts = [
     summary:
       "This is a summary of blog post number 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     publishDate: "2024-03-13",
-    image: "https://plus.unsplash.com/premium_photo-1683120730432-b5ea74bd9047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D", // Example random image URL
+    image: "https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D", // Example random image URL
   },
 ];
 
@@ -140,11 +140,11 @@ const rooms = [
       "Video Streaming Accessories"
     ],
     images: [
-      "https://source.unsplash.com/900x900?2,studio",
-      "https://source.unsplash.com/900x900?3,studio",
-      "https://source.unsplash.com/900x900?4,studio",
-      "https://source.unsplash.com/900x900?5,studio",
-      "https://source.unsplash.com/900x900?6,studio",
+      "https://images.unsplash.com/photo-1647427854253-b92bb40c9330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG8lMjBzdHVkaW98ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1615458508880-ec0521ce754f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1615458509633-f15b61bdacb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1664817550969-5e76adc4a3fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
     ]
   },
   {
@@ -162,11 +162,11 @@ const rooms = [
       "Video Streaming Accessories"
     ],
     images: [
-      "https://source.unsplash.com/900x900?7,studio",
-      "https://source.unsplash.com/900x900?8,studio",
-      "https://source.unsplash.com/900x900?9,studio",
-      "https://source.unsplash.com/900x900?10,studio",
-      "https://source.unsplash.com/900x900?21,studio",
+      "https://images.unsplash.com/photo-1664817550969-5e76adc4a3fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1647427854253-b92bb40c9330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG8lMjBzdHVkaW98ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1615458508880-ec0521ce754f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1615458509633-f15b61bdacb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",      
     ]
   },
   {
@@ -184,11 +184,11 @@ const rooms = [
       "Video Streaming Accessories"
     ],
     images: [
-      "https://source.unsplash.com/900x900?12,studio",
-      "https://source.unsplash.com/900x900?22,studio",
-      "https://source.unsplash.com/900x900?32,studio",
-      "https://source.unsplash.com/900x900?42,studio",
-      "https://source.unsplash.com/900x900?52,studio",
+      "https://images.unsplash.com/photo-1615458509633-f15b61bdacb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1647427854253-b92bb40c9330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG8lMjBzdHVkaW98ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1615458508880-ec0521ce754f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",      
+      "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1664817550969-5e76adc4a3fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
     ]
   },
   {
@@ -206,11 +206,11 @@ const rooms = [
       "Video Streaming Accessories"
     ],
     images: [
-      "https://source.unsplash.com/900x900?34,studio",
-      "https://source.unsplash.com/900x900?62,studio",
-      "https://source.unsplash.com/900x900?52,studio",
-      "https://source.unsplash.com/900x900?92,studio",
-      "https://source.unsplash.com/900x900?23,studio",
+      "https://images.unsplash.com/photo-1615458508880-ec0521ce754f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1647427854253-b92bb40c9330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG8lMjBzdHVkaW98ZW58MHx8MHx8fDA%3D",      
+      "https://images.unsplash.com/photo-1615458509633-f15b61bdacb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1664817550969-5e76adc4a3fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBob3RvJTIwc3R1ZGlvfGVufDB8fDB8fHww",
     ]
   }
 ]
