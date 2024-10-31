@@ -9,14 +9,14 @@ const heroData = [
     id: 2,
     title: "Quản lý và nhận booking talent và idol đa nền tảng",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "https://source.unsplash.com/1600x900?studio",
+    imageUrl: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGlvfGVufDB8fDB8fHww",
   },
   {
     id: 3,
     title:
       "Nhận booking studio và thiết bị livestream game, livestream bán hàng đa nền tảng.",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "https://source.unsplash.com/1600x900?office",
+    imageUrl: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2ZmaWNlfGVufDB8fDB8fHww",
   },
 ];
 
@@ -99,28 +99,28 @@ const posts = [
     summary:
       "This is a summary of blog post number 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     publishDate: "2024-03-13",
-    image: "https://source.unsplash.com/900x900?office", // Example random image URL
+    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b2ZmaWNlfGVufDB8fDB8fHww", // Example random image URL
   },
   {
     title: "Blog Post Title 2",
     summary:
       "This is a summary of blog post number 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     publishDate: "2024-03-13",
-    image: "https://source.unsplash.com/900x900?1,office", // Example random image URL
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlfGVufDB8fDB8fHww", // Example random image URL
   },
   {
     title: "Blog Post Title 3",
     summary:
       "This is a summary of blog post number 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     publishDate: "2024-03-13",
-    image: "https://source.unsplash.com/900x900?2,office", // Example random image URL
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D", // Example random image URL
   },
   {
     title: "Blog Post Title 4",
     summary:
       "This is a summary of blog post number 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     publishDate: "2024-03-13",
-    image: "https://source.unsplash.com/900x900?3,office", // Example random image URL
+    image: "https://plus.unsplash.com/premium_photo-1683120730432-b5ea74bd9047?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D", // Example random image URL
   },
 ];
 
