@@ -3,7 +3,7 @@ const heroData = [
     id: 1,
     title: "Lancer Media là đối tác MCN chính thức với nền tảng Tiktok",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-    imageUrl: "https://source.unsplash.com/1600x900?event",
+    imageUrl: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGV2ZW50fGVufDB8fDB8fHww",
   },
   {
     id: 2,
